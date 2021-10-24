@@ -27,8 +27,8 @@ app.get("/vg", (req, res) => {
                     if (base.includes(paramCap) || base.includes(param.toLowerCase())) {
                         let url = $(el).children("a").attr("href");
                         responseArr.push({
-                            data: base,
-                            link: url
+                            Title: base,
+                            Link: url
                         });
                     }
                 }
